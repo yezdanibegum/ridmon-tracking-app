@@ -1,0 +1,91 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #99ccff;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .childList {
+    flex: 1;
+    background-color: #ffcc99;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .childItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .childItem:hover {
+    background-color: #ffddbb;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .childDetails {
+    flex: 2;
+    background-color: #ccffcc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .progressChart {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #99ccff;
+  }
+  
+  .recentActivities {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .activity {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .loading, .error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+    color: #ff6666;
+  }

@@ -1,0 +1,27 @@
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .primary {
+    background-color: #ff9999;
+    color: white;
+  }
+  
+  .primary:hover {
+    background-color: #ff6666;
+  }
+  
+  .secondary {
+    background-color: #99ff99;
+    color: #333;
+  }
+  
+  .secondary:hover {
+    background-color: #66ff66;
+  }

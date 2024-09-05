@@ -1,0 +1,8 @@
+.app {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    min-height: 100vh;
+  }

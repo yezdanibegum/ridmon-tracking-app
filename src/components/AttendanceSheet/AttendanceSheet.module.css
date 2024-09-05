@@ -1,0 +1,47 @@
+.attendanceSheet {
+    flex: 2;
+    margin-right: 20px;
+    background-color: #ffff99;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .searchBar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff9999;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .studentList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .studentItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px dashed #ff9999;
+    transition: background-color 0.3s ease;
+  }
+  
+  .studentItem:hover {
+    background-color: #ffffd1;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 3px solid #ff9999;
+  }
+  
+  .name {
+    font-size: 18px;
+    color: #333;
+  }
